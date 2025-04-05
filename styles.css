@@ -1,0 +1,24 @@
+:root {
+  --dark: #45474b;
+  --light-color: #f5f7f8;
+  --green: #495e57;
+  --yellow: #f4ce14;
+}
+body {
+  background-color: var(--dark);
+  color: var(--light-color);
+  text-align: center;
+}
+button {
+  margin-top: 10%;
+  border: none;
+  border-radius: 5px;
+  padding: 0.5% 1%;
+  font-size: 1.3rem;
+  background-color: var(--yellow);
+}
+button:hover {
+  background-color: var(--green);
+  color: var(--yellow);
+  transition-duration: 0.2s;
+}
