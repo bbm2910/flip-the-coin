@@ -7,15 +7,6 @@ I built it as a practice project to improve my skills in:
 - Working with Git and GitHub
 - Building user interfaces
 
----# 🪙 Flip a Coin Game
-
-This is a simple **Flip a Coin** game made with **JavaScript**, **HTML**, and **CSS**.  
-I built it as a practice project to improve my skills in:
-
-- JavaScript functions and DOM manipulation
-- Working with Git and GitHub
-- Building user interfaces
-
 ---
 
 ## 🎮 How It Works
