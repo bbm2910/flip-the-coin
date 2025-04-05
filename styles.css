@@ -25,3 +25,11 @@ button:hover {
   color: var(--yellow);
   transition-duration: 0.2s;
 }
+.score {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+}
+.result {
+  margin-top: 10%;
+  color: var(--yellow);
+}
