@@ -16,8 +16,9 @@ button {
   border: none;
   border-radius: 5px;
   padding: 0.5% 1%;
-  font-size: 1rem;
-  font-weight: 300;
+  font-size: 0.8rem;
+  font-weight: 400;
+  letter-spacing: 3px;
   background-color: var(--yellow);
 }
 button:hover {
@@ -28,6 +29,10 @@ button:hover {
 .score {
   display: grid;
   grid-template-columns: 1fr 1fr;
+}
+.score span {
+  color: var(--yellow);
+  margin-left: 2%;
 }
 .result {
   margin-top: 10%;
