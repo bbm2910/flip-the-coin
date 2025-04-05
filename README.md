@@ -22,7 +22,7 @@ FUNCTION coinFlip(count): CREATE object to store results and counts LOOP from 0 
 
 ---
 
-## 🏗️ What I Learned
+## What I Learned
 
 - How to use `Math.random()` and conditionals to simulate randomness
 - How to manipulate the DOM to update results
@@ -31,7 +31,7 @@ FUNCTION coinFlip(count): CREATE object to store results and counts LOOP from 0 
 
 ---
 
-## 🙏 Credits
+## Credits
 
 The original coin flip logic was based on this code snippet:
 
