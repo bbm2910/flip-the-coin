@@ -8,13 +8,16 @@ body {
   background-color: var(--dark);
   color: var(--light-color);
   text-align: center;
+  font-size: 2rem;
+  font-family: "Orbitron", sans-serif;
 }
 button {
   margin-top: 10%;
   border: none;
   border-radius: 5px;
   padding: 0.5% 1%;
-  font-size: 1.3rem;
+  font-size: 1rem;
+  font-weight: 300;
   background-color: var(--yellow);
 }
 button:hover {
