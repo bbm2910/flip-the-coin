@@ -1,5 +1,7 @@
 # Flip a Coin Game
 
+![Coin Flip Game Screenshot](./assets/screenshot.png)
+
 This is a simple **Flip a Coin** game made with **JavaScript**, **HTML**, and **CSS**.  
 I built it as a practice project to improve my skills in:
 
