@@ -52,3 +52,6 @@ function coinFlip(count) {
   return obj;
 }
 ```
+
+Icon from:
+[_Start button icons created by Freepik - Flaticon_](https://www.flaticon.com/free-icons/start-button)
