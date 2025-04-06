@@ -19,19 +19,19 @@ body {
 }
 button {
   margin-top: 10%;
+  background: none;
+  padding: 0;
   border: none;
-  border-radius: 5px;
-  padding: 0.5% 1%;
-  font-size: 0.8rem;
-  font-weight: 600;
-  letter-spacing: 2px;
-  background-color: var(--yellow);
+  line-height: 0;
+  cursor: pointer;
   transition-duration: 0.2s;
 }
+button img {
+  width: 30%;
+}
 button:hover {
-  background-color: var(--green);
-  color: var(--yellow);
   transform: scale(0.9);
+  filter: invert(1);
 }
 .score {
   display: grid;
