@@ -28,7 +28,7 @@ function coinFlip() {
 
     headsCount.textContent = obj.headsCount;
     tailsCount.textContent = obj.tailsCount;
-  }, 500);
+  }, 1000);
 }
 
 // Spin the coin on click

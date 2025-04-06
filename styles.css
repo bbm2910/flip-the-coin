@@ -5,7 +5,13 @@
   --yellow: #f4ce14;
 }
 body {
-  background-color: var(--dark);
+  background: rgb(69, 71, 75);
+  background: radial-gradient(
+    circle,
+    rgba(69, 71, 75, 1) 5%,
+    rgba(244, 206, 20, 1) 70%,
+    rgba(73, 94, 87, 1) 100%
+  );
   color: var(--light-color);
   text-align: center;
   font-size: 2rem;
@@ -17,8 +23,8 @@ button {
   border-radius: 5px;
   padding: 0.5% 1%;
   font-size: 0.8rem;
-  font-weight: 400;
-  letter-spacing: 3px;
+  font-weight: 600;
+  letter-spacing: 2px;
   background-color: var(--yellow);
   transition-duration: 0.2s;
 }
@@ -30,10 +36,13 @@ button:hover {
 .score {
   display: grid;
   grid-template-columns: 1fr 1fr;
+  color: var(--dark);
 }
 .score span {
-  color: var(--yellow);
+  color: var(--light-color);
   margin-left: 2%;
+  font-weight: 700;
+  font-size: 2.5rem;
 }
 .result {
   text-align: center;
@@ -42,7 +51,6 @@ button:hover {
   color: var(--green);
 }
 
-/* Styling for the container */
 .coin-container {
   display: flex;
   justify-content: center;
@@ -51,19 +59,18 @@ button:hover {
   height: 300px;
 }
 
-/* Coin styling */
 .coin {
   width: 100px;
   height: 100px;
   border-radius: 50%;
   background: var(--yellow);
-  border: 15px solid var(--green);
+  border: 10px solid var(--light-color);
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
   font-size: 1.5rem;
-  font-weight: bold;
+  font-weight: 100;
   position: relative;
   transition: transform 0.6s ease-in-out; /* coin flip transition */
 }
@@ -83,5 +90,5 @@ button:hover {
 
 /* Class for the flip animation */
 .coin.flipping {
-  animation: flipCoin 0.5s ease-in-out; /* The coin flips when this class is added */
+  animation: flipCoin 1.5s ease-in-out;
 }
