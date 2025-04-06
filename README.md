@@ -55,3 +55,6 @@ function coinFlip(count) {
 
 Icon from:
 [_Start button icons created by Freepik - Flaticon_](https://www.flaticon.com/free-icons/start-button)
+
+Gradient made with:
+[_cssgradient.io_](https://cssgradient.io/)
