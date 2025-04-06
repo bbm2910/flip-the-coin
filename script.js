@@ -14,7 +14,7 @@ function coinFlip() {
   void coin.offsetWidth;
   coin.classList.add("flipping");
 
-  // Flip logic
+  // Flip logic and set the animation to switch the coin before it flips
   setTimeout(() => {
     if (Math.floor(Math.random() * 2) === 1) {
       obj.record.push("Heads");
